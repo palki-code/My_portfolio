@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palki Sharma - Cybersecurity Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+
+            <h1 class="name">Palki Sharma</h1>
+            
+            <p class="tagline">Cybersecurity Enthusiast | Developer</p>
+        </div>
+    </header>
+    <button id="topBtn" class="top-btn">↑ Top</button>
+    <main class="container">
+        <section class="about-section">
+            <h2>About Me</h2>
+              <img src="https://media.licdn.com/dms/image/v2/D5635AQF2D5gTKcSrLQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728126060731?e=1770267600&v=beta&t=pyKnLASarXk08YxG800veblBFzvvpoH4HR8bwQ6IeOU" alt="Portfolio Project" class="project-img">
+            <p>Enthusiastic Cyber Security student passionate about learning how to secure systems and prevent cyber attacks. Possess a basic understanding of networking, operating systems, and security fundamentals. Looking for an entry-level opportunity or internship to develop practical skills and start a career in cyber security.</p>
+        </section>
+        <section class="skills-section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">Java</li>
+                <li class="skill-item">Python</li>
+            </ul>
+        </section>
+        <section class="education-section">
+            <h2>Education</h2>
+            <table class="edu-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Degree</th>
+                        <th>Branch</th>
+                        <th>College</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3rd</td>
+                        <td>B.Tech CSE</td>
+                        <td>Cybersecurity</td>
+                        <td>Lovely Professional University</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <h3>Portfolio Website</h3>
+                  
+                    <p>A responsive HTML portfolio showcasing personal projects and skills.</p>
+                    <p class="tech-tag">📌 Tech: HTML, CSS</p>
+                </article>
+                <article class="card">
+                    <h3>AI Fitness Tracker</h3>
+                    <p>An intelligent fitness tracking application that analyzes fitness journey and calculates body composition from images using AI/ML.</p>
+                    <p class="tech-tag">📌 Tech: Python, Machine Learning</p>
+                </article>
+            </div>
+        </section>
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+            <div id="result" class="form-result"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Palki Sharma. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Scroll to top button functionality
+        const topBtn = document.getElementById('topBtn');
+        window.addEventListener('scroll', function() {
+            topBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+        });
+        topBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Form submission handler
+        const form = document.getElementById('contact-form');
+        const result = document.getElementById('result');
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const message = document.getElementById('message').value.trim();
+                
+                if (!name || !email || !message) {
+                    alert('please fill in the field (name, email, and message)');
+                    return;
+                }
+                
+                const formData = new FormData(form);
+                result.innerHTML = '<p class="success-msg">✓ Thank you for your message! I\'ll get back to you soon.</p>';
+                form.reset();
+                setTimeout(() => {
+                    result.innerHTML = '';
+                }, 5000);
+            });
+        }
+    </script>
+</body>
+</html>
