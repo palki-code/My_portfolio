@@ -1,0 +1,49 @@
+Palki Sharma  
+LinkedIn:   linkedin.com/in/palki -sharma -0b1a83284             Email:  palkisharma74 @gmail.com  
+GitHub :     github.com/palki -code     Mobile:  +91-9882320614  
+ 
+SKILLS  
+Languages : Java , C++,  C, html, css, javaScript  
+Tools/Platforms : MySQL,  Nmap, Wireshark, SEToolkit , MongoDB  
+Framework :            react.js, node.js  
+Soft Skills : Problem -Solving,  Team  Player,  Leadership,  Adaptability  
+ 
+PROJECTS  
+AI Personalised Wo rkout Planner  | GitHub  Link                                                                   Jan 2025  – May 2025 
+ Created AI ba sed workout planner that can provide tailored die t based on the req uirements of the user . 
+ Added the feature of uploading an image  for analyzi ng body fat with 80% accuracy  
+ Tech:  Python,  Gemini API  
+ 
+  Stockify  | Github Link                                                                                                        jan 2026  – feb 2026  
+             Built Stockify, a MERN -based stock market dashbo ard with real -time trend visualization.  
+             Implemented buy/sell functionality with dynamic portfolio and transaction tracking.  
+             Developed REST APIs & JWT authentication for secure user management.  
+             Designed responsive UI using React and optimized data han dling for performance.  
+  
+TRAINING  
+C++ Program ming : OOP s and DSA  – CSE Pathshala                  June  2025  – July 2025  
+ Completed 35+ hours of intensive live training covering core and advanced concepts of C++ programming.  
+ Gained hands -on experience with Object -Oriented Programming principles including classes, objects, 
+inheritance, polymorphism, abstraction, an d encapsulation  
+ Studied and implemented essential data structures such as arrays, linked lists, stacks, queues, trees, graphs, 
+and hash tables  
+ Tech: Integrated Development Environments (IDE s) – Code: Blocks / Visual S tudio / VS Code  
+ Standard Template Librar y (STL)  – Vectors, Maps, Sets, Iterators, Algorithms  
+ 
+ 
+CERTIFICAT ES 
+ C++ Programming: OOPs and DSA  – By CSE Pathshala  | Link                                                  Aug 2025 
+ The Bits and Bytes of Computer Networks  – By Google on Coursera  | Link                                  Sept 2024 
+ Responsive Web Design  – Freeco decamp  | Link                                                                 Nov 2023  
+                                                                                    
+ACHIEVEMENTS   
+ Earned a 3-star badge  for Java programming language on Hackerrank                              Sept 2025 
+ Earned a 100-day badge on LeetCode                                                                       March 2024  
+ 
+EDUCATION  
+Lovely  Professional  University     Punjab,  India  
+Bachelor  of Technology  - Computer  Science  and Engineering;  CGPA:  6.3                         Aug 2023 - Present  
+Spring Dale Ser Sec School                                                                                             Palampur, Himachal Pradesh  
+Intermediate;  Percentage:  94.5      Apr 2021 - Mar 2022 
+Spring Dale Ser Sec School                                                                                               Palampu r, Himachal Pradesh     
+Matriculation;  Percentage:  80       Apr 2019 - Mar 2020 

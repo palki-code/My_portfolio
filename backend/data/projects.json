@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "AI Personalised Workout Planner",
+    "description": "Created AI based workout planner that can provide tailored diet based on the requirements of the user. Added the feature of uploading an image for analyzing body fat with 80% accuracy.",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
+    "tech": ["Python", "Gemini API"],
+    "github": "https://github.com/palki-code",
+    "live": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Stockify",
+    "description": "Built Stockify, a MERN-based stock market dashboard with real-time trend visualization. Implemented buy/sell functionality with dynamic portfolio and transaction tracking. Developed REST APIs & JWT authentication for secure user management.",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+    "tech": ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    "github": "https://github.com/palki-code",
+    "live": "https://stock-dashboard-x9ne.onrender.com/",
+    "featured": true
+  }
+]
